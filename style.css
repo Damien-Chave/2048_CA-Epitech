@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Alfa+Slab+One|Cabin+Sketch|Francois+One|Monoton|Orbitron');
+
+:root {
+	--bright-txt: LightGoldenRodYellow;
+	--dark-txt: DarkSlateBlue ;
+}
+
+body {
+	/*background-image: url("medias/Color_square_cm.gif");*/
+	color: black;
+	/*background-color: burlywood;*/
+    background-size: 20%;
+    background-position: top center;
+    background-attachment: scroll;
+}
+
+table {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 2px;
+    border-spacing: 12px;
+    border: solid 1px tan;
+    border-radius: 10px;
+    background-color: brown;
+    opacity: 1;
+}
+
+td {
+    width: 110px;
+    height: 110px;
+    border: solid 1px tan opacity;
+    border-radius: 10px;
+    background-color: burlywood;  /* burlywood */
+
+    text-align: center;
+    hyphens: auto;
+    overflow: hidden;
+    color: var(--dark-txt);
+    font-size: 50px;
+    font-size-adjust: 0.6;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.heading {
+	text-align: center;
+}
+
+.title {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 50px;
+}
+
+.title2 {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.score-container {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 26px;
+	letter-spacing: 0px;
+	word-spacing: -0.6px;
+	color: rgb(230, 20, 20);
+	font-weight: bold;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: capitalize;
+
+}
+
+.new-game {
+	margin-top: 20px;
+	color: maroon; font-size: 20px; line-height: 14px; padding: 15px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; font-family: "Lucida Console", Monaco, monospace; font-weight: bold; text-decoration: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-east-asian: normal; font-variant-position: normal; text-transform: capitalize; background-image: linear-gradient(to right, rgb(200, 150, 61) 0%, rgb(255, 213, 128) 50%, rgb(184, 139, 59) 100%); box-shadow: rgba(0, 0, 0, 0.611765) 7px -3px 13px 0px; border: 2px none rgb(28, 110, 164); display: inline-block;}
+
+.new-game:hover {
+	background: #E6C56A; }
+.new-game:active {
+	background: #B89A44; }
+
+
+.class_2 {
+    background-image: url("medias/2-cheers.jpg");
+    background-size: 110%;
+    background-position: center;
+}
+
+.class_4 {
+	background-color: white;
+    background-image: url("medias/4-number-legs.jpg");
+    background-size: 103%;
+    background-position: top;
+}
+
+.class_8 {
+	background-color: white;
+    background-image: url("medias/circuit-en-8greenlight.jpg");
+    background-size: 120%;
+    background-position: center;
+}
+
+.class_16 {
+	background-color: black;
+    background-image: url("medias/PEGI16.png");
+    background-size: 95px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.class_32 {
+	background-color: moccasin;
+    background-image: url("medias/class_32degres.png");
+	background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+}
+
+.class_64 {
+    background-image: url("medias/class_xx64.png");
+    background-size: 110%;
+    background-position: center;
+}
+
+.class_128 {
+	background-color: white;
+    background-image: url("medias/128GBsamu.jpg");
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: center;
+}
+
+.class_256 {
+	background-color: white;
+    background-image: url("medias/256pacmanblue.jpg");
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.class_512 {
+	background-color: white;
+    background-image: url("medias/512tequila.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.class_1024 {
+    background-image: url("medias/1024original.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.class_2048 {
+    background-image: url("medias/2048-official.png");
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
